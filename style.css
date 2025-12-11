@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+}
+body {
+    background: #ffdc7a;
+    background: linear-gradient(90deg, rgba(255, 220, 122, 1) 0%, rgba(255, 241, 92, 1) 50%, rgba(255, 164, 54, 1) 100%);
+    color: black;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: azure;
+    color: rgb(54, 25, 2);
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+nav .logo > img{
+    height: 72px;
+}
+nav ul{
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a:hover{
+    color: red;
+}
+
+header{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(163, 91, 3);
+}
+header h1{
+    color: white;
+}
+header p{
+    color: white;
+}
+header a{
+    color: white;
+}
+.img_profile{
+    width: 400px;
+    border-radius: 30px;
+    object-fit: cover;
+    box-shadow: 0 5px 5px 5px bisque;
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    margin: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.card{
+    background: #ffffff;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px #000000;
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+.card h3{
+    padding: 10px;
+    font-size: 24px;
+}
+.card p{
+    padding: 5px;
+    font-size: 16px;
+}
